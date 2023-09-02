@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+
+}
+
+.container{
+    background-color:#302c2c6b ;
+    padding: 20px;
+    border: 5px solid black;
+    height: 100%;
+    width: 1440px;
+
+}
+
+
+
+.item__header{
+
+    background-color: #be3232d5;
+    height: 144px;
+    width: 1440px;
+    
+}
+
+
+.item__yoda{
+    display: flex;
+    background-color: rgb(192, 231, 14);
+    padding: 3rem;
+    justify-content: center;
+    padding: 100px;
+
+    
+    
+
+}
+
+.card__yoda{
+    
+    background-color: #0dd628;
+   
+
+
+}
+
+.item__titleyoda{
+    display: inline-block;
+    margin: 16px;;
+    padding-right: 2%;
+    background-color: violet;
+    width: 500px;
+
+}
+.item__productos{
+    display: inline-block;
+
+ background-color: blue;
+  border:5px #0dd628;  
+  
+
+
+
+
+}
+.img{
+    background-color: rgba(93, 93, 241, 0.699);
+    grid-area: section2;
+
+
+
+}
+
+.footer{
+background-color: rgb(169, 23, 182);
+grid-area: footer;
+height: 331px;
+width: 1440px;
+}
